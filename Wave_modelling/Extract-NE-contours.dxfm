@@ -1,0 +1,317 @@
+// Created     : 2022-02-28 12:48:49
+// DLL         : C:\Program Files (x86)\DHI\2019\bin\x64\pfs2004.dll
+// Version     : 17.2.0.13162
+
+[DataExtractionFM]
+   [INPUT]
+      Touched = 1
+      file_name = |.\wave_NE_monsoon.dfsu|
+   EndSect  // INPUT
+
+   [OUTPUTS]
+      Touched = 1
+      MzSEPfsListItemCount = 1
+      number_of_outputs = 1
+      [OUTPUT_1]
+         Touched = 1
+         include = 1
+         title = 'Output 1'
+         file_name = |.\P-cntr-all.dfs0|
+         type = 1
+         format = 0
+         flood_and_dry = 2
+         coordinate_type = 'PROJCS["UTM-48",GEOGCS["Unused",DATUM["UTM Projections",SPHEROID["WGS 1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000],PARAMETER["False_Northing",0],PARAMETER["Central_Meridian",105],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0],UNIT["Meter",1]]'
+         zone = 0
+         input_file_name = ||
+         input_format = 1
+         interpolation_type = 2
+         first_time_step = 20
+         last_time_step = 20
+         time_step_frequency = 1
+         number_of_points = 27
+         [POINT_1]
+            name = 'Point 1'
+            x = 961160.0
+            y = 1510000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_1
+
+         [POINT_2]
+            name = 'Point 2'
+            x = 965660.0
+            y = 1500000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_2
+
+         [POINT_3]
+            name = 'Point 3'
+            x = 968370.0
+            y = 1490000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_3
+
+         [POINT_4]
+            name = 'Point 4'
+            x = 967240.0
+            y = 1480000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_4
+
+         [POINT_5]
+            name = 'Point 5'
+            x = 968820.0
+            y = 1470000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_5
+
+         [POINT_6]
+            name = 'Point 6'
+            x = 970170.0
+            y = 1460000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_6
+
+         [POINT_7]
+            name = 'Point 7'
+            x = 972420.0
+            y = 1450000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_7
+
+         [POINT_8]
+            name = 'Point 8'
+            x = 977460.0
+            y = 1440000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_8
+
+         [POINT_9]
+            name = 'Point 9'
+            x = 984270.0
+            y = 1430000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_9
+
+         [POINT_10]
+            name = 'Point 10'
+            x = 971820.0
+            y = 1510000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_10
+
+         [POINT_11]
+            name = 'Point 11'
+            x = 971750.0
+            y = 1500000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_11
+
+         [POINT_12]
+            name = 'Point 12'
+            x = 971294.0
+            y = 1490000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_12
+
+         [POINT_13]
+            name = 'Point 13'
+            x = 970620.0
+            y = 1480000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_13
+
+         [POINT_14]
+            name = 'Point 14'
+            x = 970840.0
+            y = 1470000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_14
+
+         [POINT_15]
+            name = 'Point 15'
+            x = 972650.0
+            y = 1460000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_15
+
+         [POINT_16]
+            name = 'Point 16'
+            x = 975580.0
+            y = 1450000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_16
+
+         [POINT_17]
+            name = 'Point 17'
+            x = 977910.0
+            y = 1440000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_17
+
+         [POINT_18]
+            name = 'Point 18'
+            x = 984820.0
+            y = 1430000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_18
+
+         [POINT_19]
+            name = 'Point 19'
+            x = 973090.0
+            y = 1510000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_19
+
+         [POINT_20]
+            name = 'Point 20'
+            x = 974900.0
+            y = 1500000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_20
+
+         [POINT_21]
+            name = 'Point 21'
+            x = 975340.0
+            y = 1490000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_21
+
+         [POINT_22]
+            name = 'Point 22'
+            x = 975580.0
+            y = 1480000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_22
+
+         [POINT_23]
+            name = 'Point 23'
+            x = 975800.0
+            y = 1470000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_23
+
+         [POINT_24]
+            name = 'Point 24'
+            x = 975570.0
+            y = 1460000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_24
+
+         [POINT_25]
+            name = 'Point 25'
+            x = 978500.0
+            y = 1450000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_25
+
+         [POINT_26]
+            name = 'Point 26'
+            x = 982200.0
+            y = 1440000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_26
+
+         [POINT_27]
+            name = 'Point 27'
+            x = 985460.0
+            y = 1430000.0
+            z = -449.7496645450592
+            layer = 1
+         EndSect  // POINT_27
+
+         [LINE]
+            npoints = 3
+            x_first = 956020.124370922
+            y_first = 1403520.208
+            z_first = -905.6033325195313
+            x_last = 1019901.024538911
+            y_last = 1533761.403824139
+            z_last = 6.104003429412842
+         EndSect  // LINE
+
+         [AREA]
+            number_of_points = 4
+            [POINT_1]
+               x = 955381.3153692421
+               y = 1402217.796041759
+            EndSect  // POINT_1
+
+            [POINT_2]
+               x = 955381.3153692421
+               y = 1535063.81578238
+            EndSect  // POINT_2
+
+            [POINT_3]
+               x = 1020539.833540591
+               y = 1535063.81578238
+            EndSect  // POINT_3
+
+            [POINT_4]
+               x = 1020539.833540591
+               y = 1402217.796041759
+            EndSect  // POINT_4
+
+            layer_min = 1
+            layer_max = 0
+         EndSect  // AREA
+
+         [PARAMETERS_2D]
+            Touched = 0
+            ITEM_1 = 0
+            ITEM_2 = 0
+            ITEM_3 = 0
+            ITEM_4 = 0
+            ITEM_5 = 0
+            ITEM_6 = 0
+            ITEM_7 = 1
+            ITEM_8 = 1
+         EndSect  // PARAMETERS_2D
+
+         [PARAMETERS_3D]
+            Touched = 0
+            ITEM_1 = 1
+            ITEM_2 = 1
+            ITEM_3 = 1
+            ITEM_4 = 1
+            ITEM_5 = 1
+            ITEM_6 = 1
+            ITEM_7 = 1
+            ITEM_8 = 1
+         EndSect  // PARAMETERS_3D
+
+         [Discharge]
+            Touched = 0
+         EndSect  // Discharge
+
+      EndSect  // OUTPUT_1
+
+   EndSect  // OUTPUTS
+
+EndSect  // DataExtractionFM
+

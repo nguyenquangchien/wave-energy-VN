@@ -1,0 +1,395 @@
+// Created    : 2022-02-28 13:38:57
+// Executable : C:\Program Files (x86)\DHI\2019\bin\x64\dataextractionfm.exe
+// Version    : 17.2.0.13162
+
+
+======================= Computing Environment ========================
+  Local machine name              : pcngc2.imaps.aber.ac.uk
+  Number of subdomains            : 1
+  Local subdomain id              : -1
+  Specified threads per subdomain : 1
+======================================================================
+
+
+======================================================================
+Target: DataExtractionFM
+
+
+
+  Section: INPUT -----------------------------------------------------
+      file_name : D:\github-repos\wave-energy-VIE\Wave_modelling\wave_S_monsoon.dfsu
+--------------------------- Data File Summary ---------------------------
+  Creator: 
+  File   : D:\github-repos\wave-energy-VIE\Wave_modelling\wave_S_monsoon.dfsu
+  Title  : Output 1
+
+  Start date  Start time  Sets   Interval  Unit
+  2004-01-01    01:00:00    12       6000  second
+
+  Static items:
+  Item name            Item type               Minimum    Maximum Unit
+  Node id              Grid Codes                    1       7979 Integer
+  X-coord              Geographical coordin 956020.124 1019901.02 meter
+  Y-coord              Geographical coordin 1403520.20 1533761.40 meter
+  Z-coord              Item geometry 3-dime -905.60333   6.104003 meter
+  Code                 Grid Codes                    0          4 Integer
+  Element id           Grid Codes                    1      14165 Integer
+  Element type         Grid Codes                   21         21 Integer
+  No of nodes          Grid Codes                    3          3 Integer
+  Connectivity         Grid Codes                    1       7979 Integer
+
+  Dynamic items:
+  Item name            Item type               Minimum    Maximum Unit
+  Sign. Wave Height    Significant wave hei          0   1.093878 meter
+  Wave Period, T02     Wave period            1.664529   5.745736 second
+  Mean Wave Direction  Mean Wave Direction    0.942238 359.775116 degree
+  x-comp. of wave heig u-velocity component  -0.289118   0.052498 meter/sec
+  y-comp. of wave heig v-velocity component  -0.060291   1.093331 meter/sec
+  Wave power, p        Wave Power             0.000076   2.078537 kW/meter
+  Wave power, Px       Wave Power            -0.310313    0.02126 kW/meter
+  Wave power, Py       Wave Power            -0.017684   1.902709 kW/meter
+----------------------------------------------------------------------
+
+
+========================== Mesh information ==========================
+  Number of elements         : 14165
+  Number of faces            : 0
+  Number of nodes            : 7979
+  Number of sections         : 0
+  Min x-coordinate (m)       : 956020.124
+  Max x-coordinate (m)       : 1019901.02
+  Min y-coordinate (m)       : 1403520.20
+  Max y-coordinate (m)       : 1533761.40
+  Min z-coordinate (m)       : -905.60333
+  Max z-coordinate (m)       : 6.104003
+======================================================================
+
+
+  Section: OUTPUTS ---------------------------------------------------
+      number_of_outputs : 1
+
+
+    Section: OUTPUT_1 ------------------------------------------------
+        include : 1
+        file_name : D:\github-repos\wave-energy-VIE\Wave_modelling\P-S-cntr-all.dfs0
+        title : Contours
+        type : 1
+        format : 0
+        delete_value : 1.E-35 (default)
+        flood_and_dry : 2
+        precision : 2 (default)
+        use_end_time : 0 (default)
+        first_time_step : 11
+        last_time_step : 11
+        time_step_frequency : 1
+        number_of_variables : 0 (default)
+        interpolation_type : 2
+        interpolation_subtype : 1 (default)
+
+
+      Section: PARAMETERS_2D -----------------------------------------
+          item_1 : 0
+          item_2 : 0
+          item_3 : 0
+          item_4 : 0
+          item_5 : 0
+          item_6 : 0
+          item_7 : 1
+          item_8 : 1
+        coordinate_type : PROJCS["UTM-48",GEOGCS["Unused",DATUM["UTM Projections",SPHEROID["WGS 1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000],PARAMETER["False_Northing",0],PARAMETER["Central_Meridian",105],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0],UNIT["Meter",1]]
+        input_format : 1
+        number_of_points : 27
+
+
+      Section: POINT_1 -----------------------------------------------
+          name : Point 1
+          x : 961160
+          y : 1510000
+
+
+      Section: POINT_2 -----------------------------------------------
+          name : Point 2
+          x : 965660
+          y : 1500000
+
+
+      Section: POINT_3 -----------------------------------------------
+          name : Point 3
+          x : 968370
+          y : 1490000
+
+
+      Section: POINT_4 -----------------------------------------------
+          name : Point 4
+          x : 967240
+          y : 1480000
+
+
+      Section: POINT_5 -----------------------------------------------
+          name : Point 5
+          x : 968820
+          y : 1470000
+
+
+      Section: POINT_6 -----------------------------------------------
+          name : Point 6
+          x : 970170
+          y : 1460000
+
+
+      Section: POINT_7 -----------------------------------------------
+          name : Point 7
+          x : 972420
+          y : 1450000
+
+
+      Section: POINT_8 -----------------------------------------------
+          name : Point 8
+          x : 977460
+          y : 1440000
+
+
+      Section: POINT_9 -----------------------------------------------
+          name : Point 9
+          x : 984270
+          y : 1430000
+
+
+      Section: POINT_10 ----------------------------------------------
+          name : Point 10
+          x : 971820
+          y : 1510000
+
+
+      Section: POINT_11 ----------------------------------------------
+          name : Point 11
+          x : 971750
+          y : 1500000
+
+
+      Section: POINT_12 ----------------------------------------------
+          name : Point 12
+          x : 971294
+          y : 1490000
+
+
+      Section: POINT_13 ----------------------------------------------
+          name : Point 13
+          x : 970620
+          y : 1480000
+
+
+      Section: POINT_14 ----------------------------------------------
+          name : Point 14
+          x : 970840
+          y : 1470000
+
+
+      Section: POINT_15 ----------------------------------------------
+          name : Point 15
+          x : 972650
+          y : 1460000
+
+
+      Section: POINT_16 ----------------------------------------------
+          name : Point 16
+          x : 975580
+          y : 1450000
+
+
+      Section: POINT_17 ----------------------------------------------
+          name : Point 17
+          x : 977910
+          y : 1440000
+
+
+      Section: POINT_18 ----------------------------------------------
+          name : Point 18
+          x : 984820
+          y : 1430000
+
+
+      Section: POINT_19 ----------------------------------------------
+          name : Point 19
+          x : 973090
+          y : 1510000
+
+
+      Section: POINT_20 ----------------------------------------------
+          name : Point 20
+          x : 974900
+          y : 1500000
+
+
+      Section: POINT_21 ----------------------------------------------
+          name : Point 21
+          x : 975340
+          y : 1490000
+
+
+      Section: POINT_22 ----------------------------------------------
+          name : Point 22
+          x : 975580
+          y : 1480000
+
+
+      Section: POINT_23 ----------------------------------------------
+          name : Point 23
+          x : 975800
+          y : 1470000
+
+
+      Section: POINT_24 ----------------------------------------------
+          name : Point 24
+          x : 975570
+          y : 1460000
+
+
+      Section: POINT_25 ----------------------------------------------
+          name : Point 25
+          x : 978500
+          y : 1450000
+
+
+      Section: POINT_26 ----------------------------------------------
+          name : Point 26
+          x : 982200
+          y : 1440000
+
+
+      Section: POINT_27 ----------------------------------------------
+          name : Point 27
+          x : 985460
+          y : 1430000
+
+
+====================== Point Output Information ======================
+
+  Element  Domain           x (m)           y (m)           z (m)
+
+     7202       1  0.96116000E+06  0.15100000E+07 -0.20201905E+02
+     4615       1  0.96566000E+06  0.15000000E+07 -0.20468391E+02
+     3477       1  0.96837000E+06  0.14900000E+07 -0.19845869E+02
+     2471       1  0.96724000E+06  0.14800000E+07 -0.18640246E+02
+     4176       1  0.96882000E+06  0.14700000E+07 -0.21397486E+02
+     6020       1  0.97017000E+06  0.14600000E+07 -0.19114670E+02
+     8712       1  0.97242000E+06  0.14500000E+07 -0.20378862E+02
+     8200       1  0.97746000E+06  0.14400000E+07 -0.21076787E+02
+    12061       1  0.98427000E+06  0.14300000E+07 -0.20688441E+02
+    10213       1  0.97182000E+06  0.15100000E+07 -0.36724243E+02
+     4906       1  0.97175000E+06  0.15000000E+07 -0.29366690E+02
+     3427       1  0.97129400E+06  0.14900000E+07 -0.29922729E+02
+     1916       1  0.97062000E+06  0.14800000E+07 -0.29943515E+02
+     4084       1  0.97084000E+06  0.14700000E+07 -0.30131903E+02
+     5926       1  0.97265000E+06  0.14600000E+07 -0.30706374E+02
+     8790       1  0.97558000E+06  0.14500000E+07 -0.29670473E+02
+     8170       1  0.97791000E+06  0.14400000E+07 -0.30617284E+02
+    12087       1  0.98482000E+06  0.14300000E+07 -0.30185297E+02
+    10435       1  0.97309000E+06  0.15100000E+07 -0.50050884E+02
+     4748       1  0.97490000E+06  0.15000000E+07 -0.51070215E+02
+     5073       1  0.97534000E+06  0.14900000E+07 -0.50654608E+02
+     3953       1  0.97558000E+06  0.14800000E+07 -0.49618334E+02
+     3809       1  0.97580000E+06  0.14700000E+07 -0.49513915E+02
+     5735       1  0.97557000E+06  0.14600000E+07 -0.49189865E+02
+     8787       1  0.97850000E+06  0.14500000E+07 -0.48682763E+02
+     8107       1  0.98220000E+06  0.14400000E+07 -0.49563519E+02
+    12120       1  0.98546000E+06  0.14300000E+07 -0.50189349E+02
+======================================================================
+
+
+========================= Output Statistics ==========================
+ 
+--------------------------- Data File Summary ---------------------------
+  Creator: 
+  File   : D:\github-repos\wave-energy-VIE\Wave_modelling\P-S-cntr-all.dfs0
+  Title  : Contours
+
+  Start date  Start time  Sets   Interval  Unit
+  2004-01-01    19:20:00     1       6000  second
+
+  Dynamic items:
+  Item name            Item type               Minimum    Maximum Unit
+  Point 1: Wave power, Wave Power            -0.073218  -0.073218 kW/meter
+  Point 2: Wave power, Wave Power            -0.104481  -0.104481 kW/meter
+  Point 3: Wave power, Wave Power            -0.169697  -0.169697 kW/meter
+  Point 4: Wave power, Wave Power            -0.122214  -0.122214 kW/meter
+  Point 5: Wave power, Wave Power            -0.143292  -0.143292 kW/meter
+  Point 6: Wave power, Wave Power            -0.117969  -0.117969 kW/meter
+  Point 7: Wave power, Wave Power            -0.113116  -0.113116 kW/meter
+  Point 8: Wave power, Wave Power             -0.07509   -0.07509 kW/meter
+  Point 9: Wave power, Wave Power            -0.230524  -0.230524 kW/meter
+  Point 10: Wave power Wave Power            -0.106119  -0.106119 kW/meter
+  Point 11: Wave power Wave Power            -0.167545  -0.167545 kW/meter
+  Point 12: Wave power Wave Power            -0.170155  -0.170155 kW/meter
+  Point 13: Wave power Wave Power            -0.170933  -0.170933 kW/meter
+  Point 14: Wave power Wave Power            -0.162681  -0.162681 kW/meter
+  Point 15: Wave power Wave Power            -0.147236  -0.147236 kW/meter
+  Point 16: Wave power Wave Power            -0.141569  -0.141569 kW/meter
+  Point 17: Wave power Wave Power             -0.09313   -0.09313 kW/meter
+  Point 18: Wave power Wave Power            -0.230488  -0.230488 kW/meter
+  Point 19: Wave power Wave Power            -0.162744  -0.162744 kW/meter
+  Point 20: Wave power Wave Power            -0.165986  -0.165986 kW/meter
+  Point 21: Wave power Wave Power            -0.169316  -0.169316 kW/meter
+  Point 22: Wave power Wave Power            -0.171985  -0.171985 kW/meter
+  Point 23: Wave power Wave Power            -0.175143  -0.175143 kW/meter
+  Point 24: Wave power Wave Power            -0.174962  -0.174962 kW/meter
+  Point 25: Wave power Wave Power            -0.180687  -0.180687 kW/meter
+  Point 26: Wave power Wave Power            -0.201315  -0.201315 kW/meter
+  Point 27: Wave power Wave Power             -0.22826   -0.22826 kW/meter
+  Point 1: Wave power, Wave Power             0.066623   0.066623 kW/meter
+  Point 2: Wave power, Wave Power             0.116012   0.116012 kW/meter
+  Point 3: Wave power, Wave Power             0.276045   0.276045 kW/meter
+  Point 4: Wave power, Wave Power             0.158307   0.158307 kW/meter
+  Point 5: Wave power, Wave Power             0.201585   0.201585 kW/meter
+  Point 6: Wave power, Wave Power             0.129882   0.129882 kW/meter
+  Point 7: Wave power, Wave Power              0.09923    0.09923 kW/meter
+  Point 8: Wave power, Wave Power             0.056523   0.056523 kW/meter
+  Point 9: Wave power, Wave Power              0.45976    0.45976 kW/meter
+  Point 10: Wave power Wave Power             0.118894   0.118894 kW/meter
+  Point 11: Wave power Wave Power              0.27182    0.27182 kW/meter
+  Point 12: Wave power Wave Power             0.276971   0.276971 kW/meter
+  Point 13: Wave power Wave Power             0.277954   0.277954 kW/meter
+  Point 14: Wave power Wave Power             0.252832   0.252832 kW/meter
+  Point 15: Wave power Wave Power              0.20625    0.20625 kW/meter
+  Point 16: Wave power Wave Power             0.174636   0.174636 kW/meter
+  Point 17: Wave power Wave Power             0.078428   0.078428 kW/meter
+  Point 18: Wave power Wave Power              0.54355    0.54355 kW/meter
+  Point 19: Wave power Wave Power             0.261364   0.261364 kW/meter
+  Point 20: Wave power Wave Power             0.270064   0.270064 kW/meter
+  Point 21: Wave power Wave Power             0.278384   0.278384 kW/meter
+  Point 22: Wave power Wave Power             0.283314   0.283314 kW/meter
+  Point 23: Wave power Wave Power             0.286773   0.286773 kW/meter
+  Point 24: Wave power Wave Power             0.277968   0.277968 kW/meter
+  Point 25: Wave power Wave Power             0.278599   0.278599 kW/meter
+  Point 26: Wave power Wave Power             0.319712   0.319712 kW/meter
+  Point 27: Wave power Wave Power             0.581137   0.581137 kW/meter
+----------------------------------------------------------------------
+ 
+======================================================================
+
+
+========================== Overall Timings ===========================
+  ------------------------------------------------------------------
+  Task                                      CPU time    Elapsed time
+  ------------------------------------------------------------------
+  Read data                                     0.00            0.00
+  Write data                                    0.00            0.00
+  ------------------------------------------------------------------
+  Total                                         0.05            0.06
+  ------------------------------------------------------------------
+======================================================================
+
+
+============================ Memory Usage ============================
+  Peak memory usage (MB)                                       32.54
+======================================================================
+
+
+========================== Parallelization ===========================
+  Number of threads per subdomain : 1
+  Number of subdomains            : 1
+======================================================================
+ 
+  Number of warnings: 0
+ 
+  Normal run completion
